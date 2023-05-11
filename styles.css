@@ -19,6 +19,8 @@
 /* space out the recipe links on main page */
 .recipe-links li {
     margin: 10px;
+    /* remove the list bullets */
+    list-style-type: none;
 }
 
 /* remove underline from recipe links on main page */
