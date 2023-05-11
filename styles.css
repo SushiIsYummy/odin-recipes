@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.page-title {
+    font-size: 56px;
+}
+
+.recipe-links {
+    font-size: 30px;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* space out the recipe links on main page */
+.recipe-links li {
+    margin: 10px;
+}
+
+/* remove underline from recipe links on main page */
+.recipe-links a:link { text-decoration: none; }
+.recipe-links a:visited { text-decoration: none; }
+.recipe-links a:hover { text-decoration: none; }
+.recipe-links a:active { text-decoration: none; }
+
+.description-title, .ingredient-title, .steps-title {
+    font-size: 30px;
+}
