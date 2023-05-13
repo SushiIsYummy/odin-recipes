@@ -55,18 +55,6 @@ p, li {
     font-size: 24px;
 }
 
-.main {
-    background-color: rgb(187, 65, 171);
-}
-
-.sushi {
+body {
     background-color: rgb(209, 125, 46);
-}
-
-.lasagna {
-    background-color: rgb(204, 45, 45);
-}
-
-.pizza {
-    background-color: rgb(184, 61, 12);
 }
