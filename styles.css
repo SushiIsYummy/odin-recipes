@@ -8,18 +8,24 @@
 
 .page-title {
     font-size: 56px;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 
+.cooking-mama-img {
+    margin-bottom: 36px;
+}
 .recipe-links {
-    font-size: 30px;
+    /* font-size: 30px; */
     font-family: "Times New Roman", Helvetica, sans-serif;
     text-decoration: none;
 }
 
 /* space out the recipe links on main page */
 .recipe-links li {
-    margin: 10px;
+    margin: 20px;
     /* remove the list bullets */
+    font-size: 32px;
     list-style-type: none;
 }
 
@@ -30,5 +36,21 @@
 .recipe-links a:active { text-decoration: none; }
 
 .description-title, .ingredient-title, .steps-title {
-    font-size: 30px;
+    font-size: 36px;
+}
+
+/* make recipe images the same size*/
+.pizza-img, .sushi-img, .lasagna-img {
+    height: auto;
+    width: 600px;
+}
+
+/* remove bullets from the list items under "Steps" heading */
+.steps-list {
+    list-style-type: none;
+}
+
+/* make text under Description, Ingredients, and Steps larger */
+p, li {
+    font-size: 24px;
 }
